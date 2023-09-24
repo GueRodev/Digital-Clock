@@ -1,5 +1,4 @@
 Proyecto Reloj Digital
-direccion de carpeta raiz cd ~/Documents/Proyectos\ Junior/Digital\ Clock/
 
 Resumen de lo que hace el código:
 
