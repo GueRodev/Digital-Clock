@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://cdn.pixabay.com/photo/2015/04/11/22/15/volcano-718277_1280.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: rgb(255, 94, 0);
+    border-radius: 5px;
+    opacity: .9;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    font-family: sans-serif;
+    background: rgb(50, 124, 204);
+    opacity: .9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,.3);
+}
+
+.clock .text{
+    height: 30px; 
+    font-size:10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(19, 66, 166);
+    opacity: 0.8;
+}
+
+.clock #am{
+    position:relative;
+    bottom: -80px;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(255, 94, 0);
+    border: solid white;
+    border-radius: 5px;
+}
+
+
+
+
